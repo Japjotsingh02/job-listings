@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/job-listings-with-filters-Q2yDs_r_B)
+- Live Site URL: [job-listings](https://job-listings-filter.netlify.app/)
 
 ## My process
 
