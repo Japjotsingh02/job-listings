@@ -21,9 +21,9 @@ const  fetchData = async ()=>{
 const makeCards = (item)=>{
     return `
         ${cardBorder(item.featured,item)}
-        <section class="profile flex">
+        <h2 class="profile flex">
             <img class="image" src=${item.logo} alt="">
-            <span class="company-desc">
+            <div class="company-desc">
                 <div class="company-field">
                     <span class="company">${item.company}</span>
                     ${createNewFlags(item.new,item.featured)}
@@ -36,14 +36,14 @@ const makeCards = (item)=>{
                         <li class="country info">${item.location}</li>
                     </ul>
                 </div>
-            </span>
-        </section>
-        <section class="skills flex">
+            </div>
+        </h2>
+        <h2 class="skills flex">
             <span class="role filter">${item.role}</span>
             <span class="level filter">${item.level}</span>
             ${createLang(item.languages)}
             ${createTools(item.tools)}
-        </section>
+        </h2>
     </div>
     `;
 };
